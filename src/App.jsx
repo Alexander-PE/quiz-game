@@ -19,22 +19,21 @@ function App() {
 
   return (
     <main className='grid place-items-center min-h-screen'>
-      <article className='flex flex-col gap-6 text-center bg-teal-700 p-4 rounded max-w-md w-full'>
+      <article className='flex flex-col gap-6 nes-container with-title is-centered max-w-md w-full'>
         {
           isFinished ? (
             <div>
               <h2>Finished!</h2>
               <p>Score: {score} / {QUESTIONS.length}</p>
-              <hr />
             </div>
           ) : (
             <>
-              <h2 className='text-lg'>{question.question}</h2>
+              <h2 className='text-lg title'>{question.question}</h2>
               <ul className='flex flex-col gap-2'>
                 {question.answers.map((answer) => (
                   <li key={answer.text}>
                     <label>
-                      <button className='bg-teal-400 p-2 w-full' onClick={() => handleAnswer(answer)}>{answer.text}</button>
+                      <button className='nes-btn w-full' onClick={() => handleAnswer(answer)}>{answer.text}</button>
                     </label>
                   </li>
                 ))}
