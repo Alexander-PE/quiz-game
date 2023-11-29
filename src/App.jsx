@@ -2,6 +2,7 @@ import { useState } from 'react';
 import QUESTIONS from './questions.json'
 
 QUESTIONS.sort(() => Math.random() - 0.5) // randomize questions
+QUESTIONS.forEach(question => question.answers.sort(() => Math.random() - 0.5)) // randomize answers
 
 function App() {
   const [index, setIndex] = useState(0) // current question index
@@ -20,7 +21,13 @@ function App() {
     <main className='grid place-items-center min-h-screen'>
       <article className='flex flex-col gap-6 text-center bg-teal-700 p-4 rounded max-w-md w-full'>
         {
-          isFinished ? (<h2>Finished!</h2>) : (
+          isFinished ? (
+            <div>
+              <h2>Finished!</h2>
+              <p>Score: {score} / {QUESTIONS.length}</p>
+              <hr />
+            </div>
+          ) : (
             <>
               <h2 className='text-lg'>{question.question}</h2>
               <ul className='flex flex-col gap-2'>
