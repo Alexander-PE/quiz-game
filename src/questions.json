@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "answers": [
+      {"text": "Hyper Text Markup Language", "isCorrect": true},
+      {"text": "Highly Typed Machine Learning", "isCorrect": false},
+      {"text": "Home Tool Markup Language", "isCorrect": false},
+      {"text": "Hyperlink and Text Markup Language", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a valid CSS property?",
+    "answers": [
+      {"text": "margin-top", "isCorrect": false},
+      {"text": "font-family", "isCorrect": false},
+      {"text": "text-color", "isCorrect": true},
+      {"text": "padding-left", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What does CSS stand for?",
+    "answers": [
+      {"text": "Counter Strike: Source", "isCorrect": false},
+      {"text": "Computer Style Sheet", "isCorrect": false},
+      {"text": "Creative Style System", "isCorrect": false},
+      {"text": "Cascading Style Sheet", "isCorrect": true}
+    ]
+  },
+  {
+    "question": "Which of the following is a JavaScript library?",
+    "answers": [
+      {"text": "JavaBeans", "isCorrect": false},
+      {"text": "jQuery", "isCorrect": true},
+      {"text": "JavaFX", "isCorrect": false},
+      {"text": "JavaScript", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'alt' attribute in an HTML image tag?",
+    "answers": [
+      {"text": "Alternative text for the image", "isCorrect": true},
+      {"text": "Alignment of the image", "isCorrect": false},
+      {"text": "Attribute list for the image", "isCorrect": false},
+      {"text": "Allergic reaction to the image", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'viewport' meta tag in HTML?",
+    "answers": [
+      {"text": "Defines the document's character set", "isCorrect": false},
+      {"text": "Specifies the base URL/target for all relative URLs in a document", "isCorrect": false},
+      {"text": "Defines the viewport settings for responsive web design", "isCorrect": true},
+      {"text": "Declares a global style for the document", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "In JavaScript, what is the purpose of the 'querySelector' method?",
+    "answers": [
+      {"text": "To select the first element that matches a specified CSS selector", "isCorrect": true},
+      {"text": "To query the server for data", "isCorrect": false},
+      {"text": "To create a new HTML element", "isCorrect": false},
+      {"text": "To define a custom function", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What does the term 'AJAX' stand for?",
+    "answers": [
+      {"text": "Asynchronous JavaScript and XML", "isCorrect": true},
+      {"text": "All JavaScript Application Extensions", "isCorrect": false},
+      {"text": "Advanced JavaScript and XML", "isCorrect": false},
+      {"text": "Asynchronous JavaScript and XHTML", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'box-sizing' property in CSS?",
+    "answers": [
+      {"text": "Defines the color of the box border", "isCorrect": false},
+      {"text": "Specifies the size of the box shadow", "isCorrect": false},
+      {"text": "Controls the space between the elements inside the box", "isCorrect": false},
+      {"text": "Defines how the total width and height of an element are calculated", "isCorrect": true}
+    ]
+  },
+  {
+    "question": "Which of the following is a valid way to comment out code in JavaScript?",
+    "answers": [
+      {"text": "// This is a comment", "isCorrect": true},
+      {"text": "<!-- This is a comment -->", "isCorrect": false},
+      {"text": "# This is a comment", "isCorrect": false},
+      {"text": "' This is a comment", "isCorrect": false}
+    ]
+  }
+]
