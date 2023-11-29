@@ -25,6 +25,7 @@ function App() {
             <div>
               <h2>Finished!</h2>
               <p>Score: {score} / {QUESTIONS.length}</p>
+              <button className='nes-btn mt-5' onClick={() => window.location.reload()}>Play again</button>
             </div>
           ) : (
             <>
